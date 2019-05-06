@@ -1,0 +1,137 @@
+.fp_rac_popup_wrapper{
+  z-index:999;
+  position:fixed;
+  background:rgba(0,0,0,0.4);
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+}
+.fp_rac_popup_content{
+  position: relative;
+  background:#fefefe;
+  border-radius:5px;
+  width:30%;
+  min-height:200px;
+  margin:15% auto;
+}
+.fp_rac_popup_close{
+  position:absolute;
+  top:5px;
+  right:5px;
+}
+.fp_rac_popup_header{
+  width:100%;
+  position: relative;
+}
+.fp_rac_popup_body{
+  font-size: 14px;
+  width:100%;
+  position: relative;
+}
+.fp_rac_popup_body, .fp_rac_popup_body_content{
+  width:90%;
+  margin:30px 0 30px 30px;
+  display:block;
+}
+.fp_rac_popup_header{
+  font-size: 18px;
+  min-height:50px;
+  text-align: center;
+  border-bottom:1px solid #ccc;
+}
+.fp_rac_popup_header label.rac_popup_label{
+  display:block;
+  padding-top:20px;
+}
+.fp_rac_popup_footer{
+  text-align:center;
+  min-height:50px;
+}
+.rac_manual_order_entry_btn{
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius:5px;
+  position: center;
+  background:#003399;
+  color:#fff;
+  border:none;
+  cursor: pointer;
+}
+.rac_manual_order_entry_btn:hover{
+  box-shadow:0 0px 3px #000;
+}
+
+/*  Email infor display css settings*/
+
+.fp_rac_email_info_popup_content{
+  position: relative;
+  background:#fefefe;
+  border-radius:5px;
+  width:60%;
+  min-height:200px;
+  margin:5% auto;
+}
+.fp_rac_email_info_popup_close{
+  position:absolute;
+  top:5px;
+  right:5px;
+}
+.fp_rac_email_info_popup_header{
+  width:100%;
+  position: relative;
+}
+.fp_rac_email_info_popup_body{
+  font-size: 14px;
+  width:100%;
+  position: relative;
+  min-height: 300px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+.fp_rac_email_info_popup_body_content .rac_product_info_tb{
+  width: 100% !important;
+}
+.fp_rac_email_info_popup_body, .fp_rac_email_info_popup_body_content{
+  width:90%;
+  margin:30px 0 30px 30px;
+  display:block;
+}
+.fp_rac_email_info_popup_header{
+  font-size: 18px;
+  min-height:50px;
+  text-align: center;
+  border-bottom:1px solid #ccc;
+}
+.fp_rac_email_info_popup_header label.rac_email_info_popup_label{
+  display:block;
+  padding-top:20px;
+}
+.fp_rac_email_info_popup_footer{
+  text-align:center;
+  min-height:50px;
+}
+.rac_email_info_popup_close_btn{
+  width: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border-radius:5px;
+  position: center;
+  background:#ff3333;
+  color:#fff;
+  border:none;
+  cursor: pointer;
+}
+.fp_rac_email_info_table{
+  border-collapse: collapse;
+  width: 100%;
+}
+.fp_rac_email_info_table th, td{
+  padding: 12px;
+  text-align: left;
+  border-bottom: 0px;
+}
+.fp_rac_email_info_table th{
+  background-color: #f2f2f2;
+}
